@@ -1,0 +1,22 @@
+indicator,country,year,population,source
+Total population,India,2004,1135991513,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2005,1154676322,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2006,1172878890,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2007,1190676021,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2008,1207930964,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2009,1225524753,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2010,1243481564,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2011,1261224954,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2012,1278674502,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2013,1295829511,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2014,1312277191,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2015,1328024498,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2016,1343944296,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2017,1359657400,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2018,1374659064,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2019,1389030312,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2020,1402617695,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2021,1414203896,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2022,1425423212,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2023,1438069596,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25
+Total population,India,2024,1450935791,https://api.worldbank.org/v2/country/IN/indicator/SP.POP.TOTL?date=2004:2024&format=json&per_page=25

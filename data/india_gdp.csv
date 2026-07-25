@@ -1,0 +1,22 @@
+indicator,country,year,gdp_usd,gdp_per_capita_usd,source
+GDP (current USD),India,2004,709152728830.78,624.26,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2005,820383763511.45,710.49,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2006,940259888787.72,801.67,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2007,1216736438834.96,1021.89,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2008,1198895139005.92,992.52,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2009,1341888016994.90,1094.95,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2010,1675615519484.96,1347.52,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2011,1823051829894.55,1445.46,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2012,1827637590410.41,1429.32,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2013,1856721507621.58,1432.84,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2014,2039126479154.52,1553.88,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2015,2103588360044.94,1583.99,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2016,2294796885663.16,1707.51,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2017,2651474262755.45,1950.10,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2018,2702929641648.74,1966.25,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2019,2835606256558.19,2041.43,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2020,2674851578587.27,1907.04,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2021,3167270623260.47,2239.61,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2022,3249938492013.47,2279.98,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2023,3500906030644.76,2434.45,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25
+GDP (current USD),India,2024,3760813470500.86,2591.99,https://api.worldbank.org/v2/country/IN/indicator/NY.GDP.MKTP.CD?date=2004:2024&format=json&per_page=25

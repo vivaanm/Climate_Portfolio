@@ -1,0 +1,22 @@
+indicator,country,year,co2_total_mt,co2_per_capita_t,notes,source
+CO2 emissions total (Mt CO2e),India,2004,1168.0565,1.028,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2005,1217.7273,1.054,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2006,1299.6787,1.108,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2007,1415.2655,1.188,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2008,1519.7704,1.258,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2009,1621.1797,1.323,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2010,1730.0542,1.391,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2011,1845.6437,1.463,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2012,2015.2876,1.576,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2013,2072.6256,1.599,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2014,2237.6647,1.705,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2015,2278.2296,1.715,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2016,2311.9771,1.720,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2017,2441.2015,1.796,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2018,2556.7189,1.860,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2019,2551.4851,1.837,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2020,2356.9590,1.680,Excludes land use change; COVID-19 dip,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2021,2597.9343,1.837,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2022,2807.0805,1.969,Excludes land use change,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2023,null,null,Not yet available in World Bank database,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25
+CO2 emissions total (Mt CO2e),India,2024,null,null,Not yet available in World Bank database,https://api.worldbank.org/v2/country/IN/indicator/EN.GHG.CO2.MT.CE.AR5?date=2004:2022&format=json&per_page=25

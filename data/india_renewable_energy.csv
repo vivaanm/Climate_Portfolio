@@ -1,0 +1,22 @@
+indicator,country,year,renewable_share_pct,notes,source
+Renewable energy (% of total final energy consumption),India,2004,44.9,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2005,44.2,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2006,43.2,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2007,41.5,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2008,39.4,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2009,37.4,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2010,36.2,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2011,35.0,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2012,34.8,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2013,34.9,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2014,33.9,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2015,33.4,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2016,33.0,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2017,32.5,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2018,32.9,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2019,33.5,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2020,36.1,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2021,34.9,,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2022,null,Not yet available in World Bank database,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2023,null,Not yet available in World Bank database,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
+Renewable energy (% of total final energy consumption),India,2024,null,Not yet available in World Bank database,https://api.worldbank.org/v2/country/IN/indicator/EG.FEC.RNEW.ZS?date=2004:2024&format=json&per_page=25
