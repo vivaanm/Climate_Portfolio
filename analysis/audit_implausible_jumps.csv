@@ -1,0 +1,19 @@
+Country_code_A3,Name,IPCC_annex,year,prev_value_gg,curr_value_gg,pct_change,source
+COG,Congo,Non-Annex_I,1973,1978.7799785983,8962.5104794039,3.5293112808593485,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+OMN,Oman,Non-Annex_I,1975,7730.7348523141,25827.010165382,2.340822141591236,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GAB,Gabon,Non-Annex_I,1973,1200.4741446365,3851.6790331207,2.208464797288056,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+KHM,Cambodia,Non-Annex_I,1995,474.13068486429,1500.873471049,2.1655269717010484,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MWI,Malawi,Non-Annex_I,1990,487.33721322489,1542.4463380367,2.1650493665972355,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+LSO,Lesotho,Non-Annex_I,2000,132.55276496451,362.41761656763,1.7341384894133633,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+HTI,Haiti,Non-Annex_I,1995,414.03628719912,1126.4496892048,1.7206545030751454,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BEN,Benin,Non-Annex_I,1996,396.9212222806,1074.4588938157,1.706982729827736,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SUR,Suriname,Non-Annex_I,2000,553.10325440382,1478.744245356,1.6735410315925763,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+TLS,Timor-Leste,Non-Annex_I,2003,105.86688989348,274.49089068962,1.5927926187857628,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MRT,Mauritania,Non-Annex_I,1992,917.87292462566,2354.7437229181,1.5654354320108586,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+RWA,Rwanda,Non-Annex_I,1980,143.00314858043,338.27960415084,1.3655395528622198,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MDV,Maldives,Non-Annex_I,1994,108.37111040499,238.07200625787,1.196821693237055,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MDV,Maldives,Non-Annex_I,2000,323.57437001342,701.83040447039,1.1689925702127835,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+DJI,Djibouti,Non-Annex_I,1989,576.94011579471,1227.0003559939,1.126737805887809,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+LAO,Lao People's Democratic Republic,Non-Annex_I,2015,4387.3501128129,8927.4121000984,1.034807314334595,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SWZ,Swaziland,Non-Annex_I,1978,275.35841038022,560.2283898626,1.0345425044000882,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+CMR,Cameroon,Non-Annex_I,1983,2319.8307833134,4671.027344674,1.013520718094102,https://edgar.jrc.ec.europa.eu/dataset_ghg80

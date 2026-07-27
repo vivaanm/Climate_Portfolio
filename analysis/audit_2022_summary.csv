@@ -1,0 +1,222 @@
+code,country,annex,co2_gg_2022,source
+CHN,China,Non-Annex_I,12667428.426816,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+USA,United States,Annex_I,4853780.2223991,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+IND,India,Non-Annex_I,2693034.1047766,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+RUS,Russian Federation,Annex_I,1909039.3106579,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+JPN,Japan,Annex_I,1082645.4363453,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+IDN,Indonesia,Non-Annex_I,692236.10787942,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+IRN,"Iran, Islamic Republic of",Non-Annex_I,686415.72479115,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+DEU,Germany,Annex_I,673595.26101559,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+KOR,"Korea, Republic of",Non-Annex_I,635502.97805784,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SAU,Saudi Arabia,Non-Annex_I,607907.50819205,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+CAN,Canada,Annex_I,582072.9429827,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MEX,Mexico,Non-Annex_I,487774.01219524,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+TUR,Turkey,Annex_I,481247.52321821,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BRA,Brazil,Non-Annex_I,466770.39510662,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ZAF,South Africa,Non-Annex_I,404974.51990563,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+AUS,Australia,Annex_I,393162.54317948,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GBR,United Kingdom,Annex_I,340610.26873866,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+VNM,Viet Nam,Non-Annex_I,327905.61418153,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ITA,Italy,Annex_I,322948.71763854,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+POL,Poland,Annex_I,321954.01171096,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+FRA,France,Annex_I,315299.47686803,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+THA,Thailand,Non-Annex_I,282445.8345966,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MYS,Malaysia,Non-Annex_I,277531.76256268,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+TWN,Taiwan_Province of China,Non-Annex_I,275573.9802053,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+EGY,Egypt,Non-Annex_I,265961.27289205,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ESP,Spain,Annex_I,254363.4226003,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+KAZ,Kazakhstan,Non-Annex_I,245886.29105056,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ARE,United Arab Emirates,Non-Annex_I,218799.34779241,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+PAK,Pakistan,Non-Annex_I,199329.85672657,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+IRQ,Iraq,Non-Annex_I,193836.31092688,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ARG,Argentina,Non-Annex_I,184037.21168471,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+DZA,Algeria,Non-Annex_I,177079.42066441,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+PHL,Philippines,Non-Annex_I,155380.93653872,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+NLD,Netherlands,Annex_I,134663.63948285,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+UKR,Ukraine,Annex_I,132541.4692611,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+UZB,Uzbekistan,Non-Annex_I,132433.51326667,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+NGA,Nigeria,Non-Annex_I,122750.40323942,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+KWT,Kuwait,Non-Annex_I,110119.57513248,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BGD,Bangladesh,Non-Annex_I,109075.28748412,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+QAT,Qatar,Non-Annex_I,102617.98211558,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+CZE,Czech Republic,Annex_I,101544.65013612,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+VEN,Venezuela,Non-Annex_I,96924.939201475,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+CHL,Chile,Non-Annex_I,92858.748124863,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+OMN,Oman,Non-Annex_I,91649.085294316,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BEL,Belgium,Annex_I,90414.852696919,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+COL,Colombia,Non-Annex_I,88469.811804755,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ROU,Romania,Annex_I,77288.999399202,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MAR,Morocco,Non-Annex_I,72642.010915763,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+TKM,Turkmenistan,Non-Annex_I,69882.935021098,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+LBY,Libyan Arab Jamahiriya,Non-Annex_I,62743.003516831,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ISR,Israel,Non-Annex_I,61771.182592798,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+PER,Peru,Non-Annex_I,61610.398331468,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+AUT,Austria,Annex_I,61174.534923446,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BLR,Belarus,Annex_I,57411.410000104,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SCG,Serbia and Montenegro,Non-Annex_I,56874.440552595,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GRC,Greece,Annex_I,56777.142459972,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+PRK,"Korea, Democratic People's Republic of",Non-Annex_I,54403.772032241,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SGP,Singapore,Non-Annex_I,53439.706734312,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BGR,Bulgaria,Annex_I,50103.294756021,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+HUN,Hungary,Annex_I,47291.881569343,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ECU,Ecuador,Non-Annex_I,46106.895987404,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+NOR,Norway,Annex_I,42283.65911361,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+PRT,Portugal,Annex_I,41281.713501657,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BHR,Bahrain,Non-Annex_I,37955.113181708,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SWE,Sweden,Annex_I,37850.247178836,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+IRL,Ireland,Annex_I,37785.564473682,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MMR,Myanmar,Non-Annex_I,37394.014941289,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+FIN,Finland,Annex_I,37324.668278738,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+AZE,Azerbaijan,Non-Annex_I,37129.629837253,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+CHE,Switzerland,Annex_I,36105.176107797,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+TUN,Tunisia,Non-Annex_I,35915.389023701,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SVK,Slovakia,Annex_I,35233.240036822,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+HKG,Hong Kong,Non-Annex_I,32439.160380108,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+NZL,New Zealand,Annex_I,32371.144572043,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+TTO,Trinidad and Tobago,Non-Annex_I,29217.400728975,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+DNK,Denmark,Annex_I,29158.771572516,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SYR,Syrian Arab Republic,Non-Annex_I,28237.366282394,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+CUB,Cuba,Non-Annex_I,24770.805055793,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SDN,Sudan,Non-Annex_I,24523.238185448,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GHA,Ghana,Non-Annex_I,24452.99418338,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+LBN,Lebanon,Non-Annex_I,23766.108226751,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+JOR,Jordan,Non-Annex_I,23578.894528272,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+DOM,Dominican Republic,Non-Annex_I,23456.97022365,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MNG,Mongolia,Non-Annex_I,22095.342956299,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BOL,Bolivia,Non-Annex_I,21959.524757194,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BIH,Bosnia and Herzegovina,Non-Annex_I,21826.670729346,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+KEN,Kenya,Non-Annex_I,21527.4425945,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ETH,Ethiopia,Non-Annex_I,21106.908284611,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+AGO,Angola,Non-Annex_I,20185.668454826,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+LAO,Lao People's Democratic Republic,Non-Annex_I,20125.89946197,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GTM,Guatemala,Non-Annex_I,20090.134913608,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+LKA,Sri Lanka,Non-Annex_I,18535.917871728,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+KHM,Cambodia,Non-Annex_I,17618.908296627,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+HRV,Croatia,Annex_I,17224.972668751,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+TZA,Tanzania_United Republic of,Non-Annex_I,16978.74392839,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+NPL,Nepal,Non-Annex_I,15847.309656645,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+CIV,Cote d'Ivoire,Non-Annex_I,14491.922223728,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SVN,Slovenia,Annex_I,13946.915440324,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+LTU,Lithuania,Annex_I,13263.814961294,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+PRI,Puerto Rico,Non-Annex_I,12616.574853682,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+YEM,Yemen,Non-Annex_I,12263.16593428,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SEN,Senegal,Non-Annex_I,12074.709170191,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GEO,Georgia,Non-Annex_I,12013.897013917,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+PAN,Panama,Non-Annex_I,11384.026083172,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+EST,Estonia,Annex_I,10847.949944102,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+HND,Honduras,Non-Annex_I,10612.619979717,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+TJK,Tajikistan,Non-Annex_I,10551.2807389,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+KGZ,Kyrgyzstan,Non-Annex_I,10303.353973045,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ZWE,Zimbabwe,Non-Annex_I,10223.740604617,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+CMR,Cameroon,Non-Annex_I,10080.182806495,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MOZ,Mozambique,Non-Annex_I,10028.175748102,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+PRY,Paraguay,Non-Annex_I,9932.5535918696,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BEN,Benin,Non-Annex_I,9619.5492415606,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BRN,Brunei Darussalam,Non-Annex_I,9375.6538015089,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ZMB,Zambia,Non-Annex_I,9270.6940112139,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MDA,"Moldova, Republic of",Non-Annex_I,8652.0737532709,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+CRI,Costa Rica,Non-Annex_I,8608.3824762492,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+URY,Uruguay,Non-Annex_I,8541.5246368542,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MKD,"Macedonia, the former Yugoslav Republic of",Non-Annex_I,8336.4722180141,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BWA,Botswana,Non-Annex_I,8213.7224364633,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SLV,El Salvador,Non-Annex_I,7972.4340132488,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+LUX,Luxembourg,Annex_I,7586.8151244039,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+UGA,Uganda,Non-Annex_I,7540.2697238221,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+CYP,Cyprus,Annex_I,7460.3097256009,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+COG,Congo,Non-Annex_I,7435.8233313909,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MLI,Mali,Non-Annex_I,6725.9714745256,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+LVA,Latvia,Annex_I,6705.3685369968,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ARM,Armenia,Non-Annex_I,6326.5273597119,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+JAM,Jamaica,Non-Annex_I,6083.0410245033,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BFA,Burkina Faso,Non-Annex_I,5820.4773789894,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+NIC,Nicaragua,Non-Annex_I,5734.3991817168,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+AFG,Afghanistan,Non-Annex_I,5675.7706590661,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MWI,Malawi,Non-Annex_I,5627.5385224458,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GAB,Gabon,Non-Annex_I,5516.5635526161,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+NCL,New Caledonia,Non-Annex_I,5361.8492104097,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GNQ,Equatorial Guinea,Non-Annex_I,5053.8797303155,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+PNG,Papua New Guinea,Non-Annex_I,4715.9188226643,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MRT,Mauritania,Non-Annex_I,4611.626579125,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ALB,Albania,Non-Annex_I,4486.2091880007,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+NAM,Namibia,Non-Annex_I,4287.8293879068,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MUS,Mauritius,Non-Annex_I,4281.8180677186,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GUY,Guyana,Non-Annex_I,3804.0072016002,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GIN,Guinea,Non-Annex_I,3801.7265296753,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ISL,Iceland,Annex_I,3558.319913203,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+COD,Congo_the Democratic Republic of the,Non-Annex_I,3551.805143102,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+HTI,Haiti,Non-Annex_I,3437.0314804843,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SUR,Suriname,Non-Annex_I,3289.0243500733,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MDG,Madagascar,Non-Annex_I,3189.9973527913,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+REU,Reunion,Non-Annex_I,2736.5251404179,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+NER,Niger,Non-Annex_I,2633.172911313,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+TGO,Togo,Non-Annex_I,2437.9513483192,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MAC,Macao,Non-Annex_I,2247.4002028266,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MDV,Maldives,Non-Annex_I,2181.0811636737,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+TCD,Chad,Non-Annex_I,2110.3825688948,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ANT,Netherlands Antilles,Non-Annex_I,2046.8336258994,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MLT,Malta,Annex_I,1715.4174443932,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BTN,Bhutan,Non-Annex_I,1712.4488075009,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+FJI,Fiji,Non-Annex_I,1692.9078356265,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+RWA,Rwanda,Non-Annex_I,1626.4439973573,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+LBR,Liberia,Non-Annex_I,1622.8118814525,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BHS,Bahamas,Non-Annex_I,1446.2160847146,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+PLW,Palau,Non-Annex_I,1357.0503285748,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SWZ,Swaziland,Non-Annex_I,1348.897040011,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SLE,Sierra Leone,Non-Annex_I,1099.6978162899,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SYC,Seychelles,Non-Annex_I,1095.0607044675,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+CPV,Cape Verde,Non-Annex_I,1015.0038932924,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+PYF,French Polynesia,Non-Annex_I,956.6949785637,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SOM,Somalia,Non-Annex_I,940.55550229024,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BDI,Burundi,Non-Annex_I,924.15643548795,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GLP,Guadeloupe,Non-Annex_I,904.51570567707,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MTQ,Martinique,Non-Annex_I,899.23660794584,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ERI,Eritrea,Non-Annex_I,804.66024422707,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+LSO,Lesotho,Non-Annex_I,778.99948979854,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+DJI,Djibouti,Non-Annex_I,761.11627337099,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BRB,Barbados,Non-Annex_I,674.16985453981,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GIB,Gibraltar,Non-Annex_I,663.61961105896,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GMB,Gambia,Non-Annex_I,611.74118453677,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+TLS,Timor-Leste,Non-Annex_I,572.60858140493,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GRL,Greenland,Annex_I,465.94687171499,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ABW,Aruba,Non-Annex_I,455.06486404987,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+WSM,Samoa,Non-Annex_I,355.43063967443,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GUF,French Guiana,Non-Annex_I,354.59204784042,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GNB,Guinea-Bissau,Non-Annex_I,350.08519955433,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+COM,Comoros,Non-Annex_I,342.87869139047,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SLB,Solomon Islands,Non-Annex_I,318.05829000031,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BMU,Bermuda,Non-Annex_I,317.54051537689,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+CYM,Cayman Islands,Non-Annex_I,307.22709546884,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ATG,Antigua and Barbuda,Non-Annex_I,277.65104875281,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+CAF,Central African Republic,Non-Annex_I,276.06827107629,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+BLZ,Belize,Non-Annex_I,269.43513153608,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+LCA,Saint Lucia,Non-Annex_I,254.79355313391,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ESH,Western Sahara,Non-Annex_I,241.50209657961,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+VUT,Vanuatu,Non-Annex_I,218.14536874074,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+TON,Tonga,Non-Annex_I,166.85637158388,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+STP,Sao Tome and Principe,Non-Annex_I,157.90606497236,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GRD,Grenada,Non-Annex_I,122.49818253122,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+COK,Cook Islands,Non-Annex_I,107.78232306557,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+KNA,Saint Kitts and Nevis,Non-Annex_I,101.91838873045,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+TCA,Turks and Caicos Islands,Non-Annex_I,88.357011506631,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+VCT,Saint Vincent and the Grenadines,Non-Annex_I,82.778333954134,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+KIR,Kiribati,Non-Annex_I,73.966650408062,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+DMA,Dominica,Non-Annex_I,68.8114927917,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+VGB,Virgin Islands_British,Non-Annex_I,64.668794165199,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SPM,Saint Pierre and Miquelon,Non-Annex_I,37.100407151939,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+AIA,Anguilla,Non-Annex_I,22.819878897908,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+FLK,Falkland Islands (Malvinas),Non-Annex_I,21.776117192847,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+SHN,Saint Helena,Non-Annex_I,17.900363906524,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MSR,Montserrat,Non-Annex_I,12.793179768682,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+FRO,Faroe Islands,Annex_I,2.1122208881641,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+GUM,Guam,Non-Annex_I,0.2596488998301,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+VIR,Virgin Islands_USA,Non-Annex_I,0.15242461916361,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+ASM,American Samoa,Non-Annex_I,0.08509941865781,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+TUV,Tuvalu,Non-Annex_I,0.018220975426674,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+NRU,Nauru,Non-Annex_I,0.016702560807784,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+FSM,"Micronesia, Federated States of",Non-Annex_I,0.011893289773426,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MYT,Mayotte,Non-Annex_I,0.0071447652995008,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MNP,Northern Mariana Islands,Non-Annex_I,0.0049176211026316,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+MHL,Marshall Islands,Non-Annex_I,0.0047151516253748,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+WLF,Wallis and Futuna,Non-Annex_I,0.0010132315324732,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+NIU,Niue,Non-Annex_I,0.00016106290831204,https://edgar.jrc.ec.europa.eu/dataset_ghg80
+TKL,Tokelau,Non-Annex_I,0.00012201217406745,https://edgar.jrc.ec.europa.eu/dataset_ghg80
