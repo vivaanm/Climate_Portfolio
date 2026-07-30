@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reliance Industries — CSRD-Style Double Materiality Matrix</title>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+         background:#f5f7fa;color:#1a1a2e;line-height:1.6}
+
+    .header{background:linear-gradient(135deg,#0f3460,#16213e);color:#fff;
+            padding:2.2rem 2rem 1.8rem;border-bottom:4px solid #e94560}
+    .header-inner{max-width:1100px;margin:auto}
+    .header h1{font-size:1.7rem;font-weight:700;margin-bottom:.3rem}
+    .header .sub{font-size:.9rem;opacity:.75;margin-bottom:.8rem}
+    .badge-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.6rem}
+    .badge{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);
+           border-radius:20px;padding:.2rem .8rem;font-size:.75rem}
+
+    .container{max-width:1100px;margin:0 auto;padding:2rem 1.5rem}
+
+    /* explainer box */
+    .explainer{background:#fff;border:1px solid #e0e6ed;border-radius:10px;
+               padding:1.4rem 1.6rem;margin-bottom:1.8rem;
+               box-shadow:0 2px 8px rgba(0,0,0,.05)}
+    .explainer h2{font-size:1rem;font-weight:700;color:#0f3460;margin-bottom:.6rem;
+                  text-transform:uppercase;letter-spacing:.05em}
+    .explainer p{font-size:.87rem;color:#444;margin-bottom:.5rem}
+    .explainer p:last-child{margin-bottom:0}
+
+    /* legend */
+    .legend{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:1.5rem;
+            background:#fff;border:1px solid #e0e6ed;border-radius:10px;padding:1rem 1.4rem}
+    .legend-item{display:flex;align-items:center;gap:.5rem;font-size:.82rem;color:#333}
+    .dot{width:14px;height:14px;border-radius:50%;flex-shrink:0}
+    .dot-both{background:#e94560}
+    .dot-fin{background:#0f3460}
+    .dot-soc{background:#2a9d8f}
+    .dot-low{background:#adb5bd}
+    .dot-flag{background:#f4a261;border:2px dashed #d35400;width:16px;height:16px}
+
+    /* matrix wrapper */
+    .matrix-wrap{background:#fff;border:1px solid #e0e6ed;border-radius:12px;
+                 padding:1.5rem;box-shadow:0 2px 12px rgba(0,0,0,.06);margin-bottom:1.8rem}
+    .matrix-title{font-size:1rem;font-weight:700;color:#0f3460;margin-bottom:.2rem;
+                  text-transform:uppercase;letter-spacing:.05em}
+    .matrix-meta{font-size:.78rem;color:#888;margin-bottom:1rem}
+    #matrix-svg{width:100%;overflow:visible}
+
+    /* tooltip */
+    #tooltip{position:fixed;background:#1a1a2e;color:#fff;padding:.8rem 1rem;
+             border-radius:8px;font-size:.8rem;max-width:320px;line-height:1.5;
+             pointer-events:none;opacity:0;transition:opacity .15s;z-index:999;
+             box-shadow:0 4px 20px rgba(0,0,0,.3)}
+    #tooltip .tt-title{font-weight:700;font-size:.9rem;margin-bottom:.4rem;color:#f9c74f}
+    #tooltip .tt-score{font-size:.75rem;opacity:.8;margin-bottom:.4rem}
+    #tooltip .tt-body{font-size:.78rem;line-height:1.5}
+    #tooltip .tt-flag{margin-top:.5rem;background:rgba(244,162,97,.2);
+                      border-left:3px solid #f4a261;padding:.4rem .6rem;
+                      border-radius:0 4px 4px 0;font-size:.75rem}
+    #tooltip .tt-cite{margin-top:.5rem;opacity:.6;font-size:.72rem}
+
+    /* detail cards */
+    .cards-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-bottom:1.8rem}
+    @media(max-width:700px){.cards-grid{grid-template-columns:1fr}}
+    .card{background:#fff;border:1px solid #e0e6ed;border-radius:10px;padding:1.2rem;
+          box-shadow:0 1px 6px rgba(0,0,0,.04)}
+    .card h3{font-size:.88rem;font-weight:700;color:#0f3460;margin-bottom:.4rem;
+             text-transform:uppercase;letter-spacing:.04em}
+    .card p{font-size:.82rem;color:#444;margin-bottom:.4rem}
+    .card p:last-child{margin-bottom:0}
+    .discrepancy-badge{display:inline-block;background:#fff3cd;border:1px solid #ffc107;
+                       color:#856404;font-size:.7rem;font-weight:700;padding:.1rem .45rem;
+                       border-radius:4px;letter-spacing:.03em;margin-left:.3rem}
+    .cite{font-size:.72rem;color:#888;margin-top:.3rem}
+
+    /* quadrant note */
+    .q-note{background:#f8f9fa;border-radius:8px;padding:1rem 1.2rem;
+            font-size:.83rem;color:#555;margin-bottom:1.8rem;
+            border-left:4px solid #0f3460}
+    .q-note strong{color:#0f3460}
+
+    footer{background:#16213e;color:rgba(255,255,255,.55);text-align:center;
+           padding:1.5rem;font-size:.76rem;margin-top:2rem}
+    footer a{color:rgba(255,255,255,.75)}
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-inner">
+    <h1>Reliance Industries — CSRD-Style Double Materiality Matrix</h1>
+    <div class="sub">Mapping financial impact on Reliance against Reliance's impact on the world · FY 2024-25</div>
+    <div class="badge-row">
+      <span class="badge">Source: BRSR 2024-25 (p.10–13, 35–38) · Annual Report 2024-25</span>
+      <span class="badge">Cross-checked against dashboard &amp; EDGAR audit findings</span>
+      <span class="badge">3 independent discrepancies flagged</span>
+    </div>
+  </div>
+</div>
+
+<div id="tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-score" id="tt-score"></div>
+  <div class="tt-body" id="tt-body"></div>
+  <div class="tt-flag" id="tt-flag" style="display:none"></div>
+  <div class="tt-cite" id="tt-cite"></div>
+</div>
+
+<div class="container">
+
+  <!-- EXPLAINER -->
+  <div class="explainer">
+    <h2>What is a Double Materiality Matrix?</h2>
+    <p>
+      The <strong>CSRD</strong> (Corporate Sustainability Reporting Directive) is the EU's mandatory sustainability
+      reporting standard. It requires companies to assess each issue on <em>two axes at once</em>:
+    </p>
+    <p>
+      <strong>Financial materiality (x-axis →):</strong> Does this issue create financial risk or opportunity for Reliance?
+      A carbon tax would raise Reliance's operating costs — that is high financial materiality for Reliance.
+    </p>
+    <p>
+      <strong>Impact materiality (y-axis ↑):</strong> Does Reliance's activity cause harm or benefit to people and planet on this issue?
+      Reliance's refinery emissions affect air quality for communities near Jamnagar — that is high impact materiality for the world.
+    </p>
+    <p>
+      Issues in the <strong>top-right quadrant</strong> are "double material" — they matter financially <em>and</em> they
+      matter for the world. These get the most scrutiny from investors and regulators.
+      Scores are on a 1–9 scale. Where our independent analysis disagrees with Reliance's own framing, both are shown.
+    </p>
+  </div>
+
+  <!-- LEGEND -->
+  <div class="legend">
+    <div class="legend-item"><div class="dot dot-both"></div>Double material (priority)</div>
+    <div class="legend-item"><div class="dot dot-fin"></div>Financially material</div>
+    <div class="legend-item"><div class="dot dot-soc"></div>Impact material (society)</div>
+    <div class="legend-item"><div class="dot dot-low"></div>Monitor / lower priority</div>
+    <div class="legend-item"><div class="dot dot-flag"></div>⚠ Discrepancy: our score differs from Reliance's self-assessment</div>
+  </div>
+
+  <!-- MATRIX -->
+  <div class="matrix-wrap">
+    <div class="matrix-title">Double Materiality Matrix — 12 Material Issues</div>
+    <div class="matrix-meta">
+      Scores derived from BRSR 2024-25 materiality table (p.10–13) and cross-checked against BRSR emissions data (p.35–38) and prior dashboard analysis.
+      Hover over any dot for evidence and citations.
+    </div>
+    <svg id="matrix-svg" viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg"></svg>
+  </div>
+
+  <!-- QUADRANT NOTE -->
+  <div class="q-note">
+    <strong>Reading the quadrants:</strong>
+    Bottom-left = Monitor (low priority for disclosure depth).
+    Bottom-right = Manage for Reliance's own resilience (financial risk but limited world impact).
+    Top-left = Address for society (Reliance affects the world but financial exposure is lower).
+    <strong>Top-right = Double material — mandatory to address under CSRD logic, highest scrutiny from ESG investors.</strong>
+    Climate Change sits in the top-right on our independent scoring, but Reliance's own framing places it lower on impact materiality by not disclosing Scope 3.
+  </div>
+
+  <!-- DETAIL CARDS: KEY DISCREPANCIES -->
+  <div class="matrix-title" style="margin-bottom:1rem;font-size:1rem;font-weight:700;color:#0f3460;text-transform:uppercase;letter-spacing:.05em">
+    Independent Discrepancy Analysis — Where Our Judgment Differs from Reliance's
+  </div>
+  <div class="cards-grid">
+
+    <div class="card">
+      <h3>Climate Change <span class="discrepancy-badge">DISCREPANCY</span></h3>
+      <p><strong>Reliance's self-framing (BRSR p.12):</strong> Frames climate change primarily as a risk <em>to</em> Reliance — physical risks (flooding, heat) and transitional risks (policy, energy markets). Their implicit impact score: medium (~5/9).</p>
+      <p><strong>Our independent assessment:</strong> Reliance is also a major <em>cause</em> of climate change. Scope 1+2 = 37.93 Mt CO₂e (BRSR p.36). Scope 3 = not disclosed, but for an oil refinery likely 300–400 Mt/year based on global peer ratios. Impact score: 9/9.</p>
+      <p><strong>The gap:</strong> By not disclosing Scope 3, Reliance's materiality language obscures that its core product — fossil fuel — is the mechanism by which it contributes to the climate problem it is simultaneously treating as a financial risk.</p>
+      <div class="cite">Sources: BRSR 2024-25 p.12 (materiality), p.36 (Scope 1+2); Scope 3 peer ratio from BP 2023 annual report (UNVERIFIED for Reliance)</div>
+    </div>
+
+    <div class="card">
+      <h3>Managing Environmental Impacts (Air Quality) <span class="discrepancy-badge">DISCREPANCY</span></h3>
+      <p><strong>Reliance's self-framing (BRSR p.12):</strong> Framed as regulatory compliance and operational cost management. Their implicit impact score: medium (~5/9).</p>
+      <p><strong>Our independent assessment:</strong> BRSR p.36 discloses 33,972 tonnes of NOx, 14,116 tonnes of SOx, and 48,465 tonnes of VOC in FY2024-25. NOx and SOx at this scale cause significant respiratory illness in communities near Jamnagar, Dahej, and Hazira. This is a high-impact issue for surrounding populations — not merely a compliance cost. Impact score: 8/9.</p>
+      <p><strong>The gap:</strong> The BRSR never uses the phrase "community health impact" in the materiality section for this issue. The framing is entirely inward-facing.</p>
+      <div class="cite">Source: BRSR 2024-25 p.12 (materiality language), p.36 (NOx/SOx/VOC figures, Deloitte-assured)</div>
+    </div>
+
+    <div class="card">
+      <h3>Water &amp; Effluent Management <span class="discrepancy-badge">DISCREPANCY</span></h3>
+      <p><strong>Reliance's self-framing (BRSR p.12):</strong> Framed as operational risk — water availability may become a concern for Reliance's own operations. Their implicit impact score: medium (~6/9).</p>
+      <p><strong>Our independent assessment:</strong> Total water withdrawal is 20.84 billion kilolitres per year (BRSR p.35 — Deloitte-assured). Of this, 9.72 billion kL comes from surface water (rivers, lakes) in a country where water stress is severe and growing. The materiality language does not discuss ecological or community impacts of this withdrawal scale. Impact score: 7/9.</p>
+      <p><strong>The gap:</strong> Reliance is one of India's largest industrial water users. Its impact on downstream communities and ecosystems is not addressed in its own materiality assessment.</p>
+      <div class="cite">Source: BRSR 2024-25 p.12 (materiality), p.35 (water data, Deloitte-assured)</div>
+    </div>
+
+    <div class="card">
+      <h3>What "no discrepancy" means</h3>
+      <p>For issues like <strong>Raw Material Security, Innovation &amp; Technology, Disaster Preparedness, Talent Management,</strong> and <strong>Community Development</strong>, our independent assessment largely agrees with Reliance's own framing. These are either: issues where Reliance's impact on the world is genuinely limited (Raw Materials, Disaster Preparedness), or where the framing is balanced and reasonable (Community Development, Health &amp; Safety).</p>
+      <p>The three discrepancies flagged above share a pattern: in each case, Reliance frames the issue as a risk <em>to itself</em> when the data shows it is also a significant cause of impact <em>on the world</em>. This is a known bias in corporate materiality assessments — companies tend to see issues through the lens of how they are affected, not how they affect others.</p>
+      <div class="cite">Methodology: Scores derived from BRSR 2024-25 p.10–13 (materiality language), cross-referenced against p.35–38 (assured environmental data) and prior dashboard analysis (Scope 1/2 trend, Scope 3 gap)</div>
+    </div>
+
+  </div>
+
+</div><!-- /container -->
+
+<footer>
+  Built 2026-07-30 · Climate Portfolio Project ·
+  Data: RIL BRSR 2024-25 (Deloitte-assured) · RIL Annual Report 2024-25 ·
+  CSRD double materiality methodology (EFRAG 2023) ·
+  <a href="https://github.com/vivaanm/Climate_Portfolio" target="_blank">GitHub ↗</a>
+</footer>
+
+<script>
+// ── DATA ────────────────────────────────────────────────────────────────────
+const issues = [
+  {
+    id: "climate",
+    label: "Climate Change",
+    fin: 8.5,   // financial materiality score 1-9
+    imp: 9.0,   // our impact materiality score
+    selfImp: 5.5, // Reliance's implied impact score
+    flag: true,
+    color: "#e94560",
+    rationale: "Physical & transitional risks to Reliance (energy costs, carbon pricing, extreme weather). BUT: Scope 1+2 = 37.93 Mt CO₂e; Scope 3 est. 300–400 Mt — Reliance is a major climate contributor, not only a victim.",
+    discrepancy: "Reliance frames itself as a climate risk recipient. Our analysis: one of India's largest single-company emitters with undisclosed Scope 3.",
+    cite: "BRSR 2024-25 p.12 (materiality), p.36 (Scope 1+2, Deloitte-assured)"
+  },
+  {
+    id: "energy",
+    label: "Energy Efficiency",
+    fin: 8.0,
+    imp: 7.0,
+    selfImp: 5.0,
+    flag: true,
+    color: "#f4a261",
+    rationale: "Higher input costs, reduced margins, compliance costs from inefficiency (BRSR p.10). Total energy = 48.16 billion GJ in FY24-25 (p.35) — one of India's largest industrial energy consumers.",
+    discrepancy: "BRSR frames this as a cost issue only. At 48.16 billion GJ, the environmental impact of this energy consumption is significant and understated.",
+    cite: "BRSR 2024-25 p.10 (materiality), p.35 (energy data, Deloitte-assured)"
+  },
+  {
+    id: "envimpact",
+    label: "Environmental Impacts\n(Air Quality)",
+    fin: 6.5,
+    imp: 8.0,
+    selfImp: 5.0,
+    flag: true,
+    color: "#e94560",
+    rationale: "Regulatory penalties, compliance costs (BRSR p.12). BUT: NOx = 33,972t, SOx = 14,116t, VOC = 48,465t (p.36). Significant public health impact near Jamnagar, Dahej, Hazira.",
+    discrepancy: "Reliance frames this as a compliance cost. We flag it as a high-impact issue for surrounding communities based on the disclosed pollutant quantities.",
+    cite: "BRSR 2024-25 p.12 (materiality), p.36 (air emissions, Deloitte-assured)"
+  },
+  {
+    id: "water",
+    label: "Water & Effluent",
+    fin: 7.0,
+    imp: 7.0,
+    selfImp: 6.0,
+    flag: true,
+    color: "#f4a261",
+    rationale: "Operational risk from water scarcity (BRSR p.12). Total withdrawal = 20.84 billion kL/yr incl. 9.72 billion kL surface water (p.35). Major user in a water-stressed country.",
+    discrepancy: "Reliance's materiality language focuses on risk to operations. Community and ecological impact of this withdrawal volume is not addressed.",
+    cite: "BRSR 2024-25 p.12 (materiality), p.35 (water data, Deloitte-assured)"
+  },
+  {
+    id: "rawmat",
+    label: "Raw Material Security",
+    fin: 8.5,
+    imp: 3.0,
+    selfImp: 3.0,
+    flag: false,
+    color: "#0f3460",
+    rationale: "Existential for operations — Reliance refines ~1.4M bbl/day; long-term crude contracts, feedstock diversity (BRSR p.10). High financial risk if supply disrupted.",
+    discrepancy: null,
+    cite: "BRSR 2024-25 p.10 (materiality)"
+  },
+  {
+    id: "waste",
+    label: "Waste & Circular Economy",
+    fin: 6.0,
+    imp: 6.5,
+    selfImp: 6.0,
+    flag: false,
+    color: "#2a9d8f",
+    rationale: "Regulatory penalties, environmental damage (BRSR p.13). Total waste = 760,123t incl. 121,782t hazardous (p.37). 97% recovered/recycled — strong performance but scale is large.",
+    discrepancy: null,
+    cite: "BRSR 2024-25 p.13 (materiality), p.37 (waste data, Deloitte-assured)"
+  },
+  {
+    id: "biodiversity",
+    label: "Ecosystem & Biodiversity",
+    fin: 5.0,
+    imp: 5.0,
+    selfImp: 5.0,
+    flag: false,
+    color: "#2a9d8f",
+    rationale: "Project delays, compliance costs near sensitive areas (BRSR p.12). Operations at Jamnagar, Dahej, Hazira, KG-D6 all in marine/coastal zones (p.38).",
+    discrepancy: null,
+    cite: "BRSR 2024-25 p.12 (materiality), p.38 (ecologically sensitive sites)"
+  },
+  {
+    id: "innovation",
+    label: "Innovation & Technology",
+    fin: 8.0,
+    imp: 4.0,
+    selfImp: 4.0,
+    flag: false,
+    color: "#0f3460",
+    rationale: "Competitive positioning, new markets, new energy growth engine (BRSR p.10). Enables decarbonisation but primarily a financial opportunity issue.",
+    discrepancy: null,
+    cite: "BRSR 2024-25 p.10 (materiality)"
+  },
+  {
+    id: "supplychain",
+    label: "Sustainable Supply Chain",
+    fin: 6.0,
+    imp: 5.0,
+    selfImp: 5.0,
+    flag: false,
+    color: "#2a9d8f",
+    rationale: "Regulatory disruption risk if suppliers non-compliant (BRSR p.10). Supplier Code of Conduct updated; 100% of O2C suppliers covered.",
+    discrepancy: null,
+    cite: "BRSR 2024-25 p.10 (materiality)"
+  },
+  {
+    id: "health",
+    label: "Health, Safety & Wellbeing",
+    fin: 6.5,
+    imp: 5.5,
+    selfImp: 5.5,
+    flag: false,
+    color: "#2a9d8f",
+    rationale: "Financial repercussions from incidents; globally benchmarked HSE framework (BRSR p.13). Covers 300,000+ workforce.",
+    discrepancy: null,
+    cite: "BRSR 2024-25 p.13 (materiality)"
+  },
+  {
+    id: "community",
+    label: "Community Development",
+    fin: 4.0,
+    imp: 6.0,
+    selfImp: 6.0,
+    flag: false,
+    color: "#2a9d8f",
+    rationale: "Social license to operate; brand/reputation (BRSR p.11). Positive community impact through CSR but also negative impacts from operations not fully quantified.",
+    discrepancy: null,
+    cite: "BRSR 2024-25 p.11 (materiality)"
+  },
+  {
+    id: "disaster",
+    label: "Disaster Preparedness",
+    fin: 7.0,
+    imp: 2.0,
+    selfImp: 2.0,
+    flag: false,
+    color: "#0f3460",
+    rationale: "Business continuity, asset protection (BRSR p.13). Jamnagar coastal location, offshore KG-D6 operations. Primarily an internal risk management issue.",
+    discrepancy: null,
+    cite: "BRSR 2024-25 p.13 (materiality)"
+  }
+];
+
+// ── DRAW SVG ─────────────────────────────────────────────────────────────────
+const svg = document.getElementById("matrix-svg");
+const W = 700, H = 560;
+const PAD = { top: 30, right: 20, bottom: 70, left: 70 };
+const plotW = W - PAD.left - PAD.right;
+const plotH = H - PAD.top - PAD.bottom;
+
+function toX(v) { return PAD.left + ((v - 1) / 8) * plotW; }
+function toY(v) { return PAD.top + plotH - ((v - 1) / 8) * plotH; }
+
+function el(tag, attrs = {}, parent = null) {
+  const e = document.createElementNS("http://www.w3.org/2000/svg", tag);
+  Object.entries(attrs).forEach(([k, v]) => e.setAttribute(k, v));
+  if (parent) parent.appendChild(e);
+  return e;
+}
+function txt(tag, content, attrs = {}, parent = null) {
+  const e = el(tag, attrs, parent);
+  e.textContent = content;
+  return e;
+}
+
+// Background quadrants
+const qColors = [
+  { x1:1, y1:1, x2:5, y2:5, fill:"#f0f9f6", label:"Monitor", lx:2.5, ly:2 },
+  { x1:5, y1:1, x2:9, y2:5, fill:"#f0f4fc", label:"Manage for Reliance", lx:7.5, ly:2 },
+  { x1:1, y1:5, x2:5, y2:9, fill:"#fff8f2", label:"Address for Society", lx:2.5, ly:8.3 },
+  { x1:5, y1:5, x2:9, y2:9, fill:"#fff0f2", label:"Double Material — Priority", lx:6.5, ly:8.3 },
+];
+qColors.forEach(q => {
+  el("rect", {
+    x: toX(q.x1), y: toY(q.y2),
+    width: toX(q.x2) - toX(q.x1),
+    height: toY(q.y1) - toY(q.y2),
+    fill: q.fill, stroke:"#e0e6ed", "stroke-width":"1"
+  }, svg);
+  txt("text", q.label, {
+    x: toX(q.lx), y: toY(q.ly),
+    "font-size":"11", fill:"#aaa", "text-anchor":"middle",
+    "font-style":"italic"
+  }, svg);
+});
+
+// Dividing lines
+el("line", { x1:toX(5), y1:toY(1), x2:toX(5), y2:toY(9),
+             stroke:"#ccc", "stroke-width":"1.5", "stroke-dasharray":"4,3" }, svg);
+el("line", { x1:toX(1), y1:toY(5), x2:toX(9), y2:toY(5),
+             stroke:"#ccc", "stroke-width":"1.5", "stroke-dasharray":"4,3" }, svg);
+
+// Axis labels
+txt("text", "← Lower financial impact on Reliance          Higher financial impact on Reliance →", {
+  x: PAD.left + plotW/2, y: H - 12,
+  "font-size":"11", fill:"#555", "text-anchor":"middle"
+}, svg);
+
+// Y axis label (rotated)
+const yLabel = txt("text", "← Lower Reliance impact on world     Higher Reliance impact on world →", {
+  x: 0, y: 0,
+  "font-size":"11", fill:"#555", "text-anchor":"middle",
+  transform:`translate(14,${PAD.top + plotH/2}) rotate(-90)`
+}, svg);
+
+// Axis ticks
+for (let v = 1; v <= 9; v += 2) {
+  txt("text", v, {
+    x: toX(v), y: PAD.top + plotH + 18,
+    "font-size":"10", fill:"#999", "text-anchor":"middle"
+  }, svg);
+  txt("text", v, {
+    x: PAD.left - 12, y: toY(v) + 4,
+    "font-size":"10", fill:"#999", "text-anchor":"end"
+  }, svg);
+}
+
+// Plot each issue
+issues.forEach(d => {
+  const cx = toX(d.fin);
+  const cy = toY(d.imp);
+  const r = 11;
+
+  // Draw connector line from self-score to our score if flag
+  if (d.flag && Math.abs(d.imp - d.selfImp) > 0.3) {
+    const cySelf = toY(d.selfImp);
+    el("line", {
+      x1: cx, y1: cySelf, x2: cx, y2: cy,
+      stroke: "#f4a261", "stroke-width":"2",
+      "stroke-dasharray":"3,2", "marker-end":"url(#arrow)"
+    }, svg);
+    // Self dot (smaller, muted)
+    el("circle", {
+      cx, cy: cySelf, r: 6,
+      fill: "#f4a261", stroke:"#d35400", "stroke-width":"1.5",
+      "stroke-dasharray":"2,1", opacity:".7"
+    }, svg);
+  }
+
+  // Main dot (our score)
+  const mainDot = el("circle", {
+    cx, cy, r,
+    fill: d.color, stroke:"#fff", "stroke-width":"2",
+    style:"cursor:pointer"
+  }, svg);
+
+  // Label
+  const lines = d.label.split("\n");
+  const labelG = el("g", {
+    transform:`translate(${cx + r + 5},${cy - (lines.length-1)*7})`
+  }, svg);
+  lines.forEach((line, i) => {
+    txt("text", line, {
+      x:0, y: i*13,
+      "font-size":"10.5", fill:"#222", "font-weight":"600"
+    }, labelG);
+  });
+
+  // Tooltip events
+  function showTip(e) {
+    const tt = document.getElementById("tooltip");
+    document.getElementById("tt-title").textContent = d.label.replace("\n"," — ");
+    document.getElementById("tt-score").textContent =
+      `Financial materiality: ${d.fin}/9  |  Our impact score: ${d.imp}/9` +
+      (d.flag ? `  |  Reliance self-implied: ${d.selfImp}/9` : "");
+    document.getElementById("tt-body").textContent = d.rationale;
+    const flagEl = document.getElementById("tt-flag");
+    if (d.discrepancy) {
+      flagEl.style.display = "block";
+      flagEl.textContent = "⚠ Discrepancy: " + d.discrepancy;
+    } else {
+      flagEl.style.display = "none";
+    }
+    document.getElementById("tt-cite").textContent = d.cite;
+    tt.style.opacity = "1";
+    tt.style.left = (e.clientX + 16) + "px";
+    tt.style.top  = (e.clientY - 10) + "px";
+  }
+  function hideTip() { document.getElementById("tooltip").style.opacity = "0"; }
+  function moveTip(e) {
+    const tt = document.getElementById("tooltip");
+    tt.style.left = (e.clientX + 16) + "px";
+    tt.style.top  = (e.clientY - 10) + "px";
+  }
+  mainDot.addEventListener("mouseenter", showTip);
+  mainDot.addEventListener("mousemove", moveTip);
+  mainDot.addEventListener("mouseleave", hideTip);
+  labelG.addEventListener("mouseenter", showTip);
+  labelG.addEventListener("mousemove", moveTip);
+  labelG.addEventListener("mouseleave", hideTip);
+});
+
+// Arrow marker for self-vs-ours connector
+const defs = el("defs", {}, svg);
+const marker = el("marker", { id:"arrow", markerWidth:"8", markerHeight:"8",
+  refX:"6", refY:"3", orient:"auto" }, defs);
+el("path", { d:"M0,0 L0,6 L8,3 z", fill:"#f4a261" }, marker);
+</script>
+</body>
+</html>
